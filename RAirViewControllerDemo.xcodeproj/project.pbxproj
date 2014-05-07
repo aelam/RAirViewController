@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4C41A35DFAEC402AB7F13426 /* libPods-RAirViewControllerDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 873C74DB0348454B87311875 /* libPods-RAirViewControllerDemo.a */; };
+		727DA3B8D93C4C568142D40A /* libPods-RAirViewController.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C868F1279F3432AACF0FCAA /* libPods-RAirViewController.a */; };
+		947D972918DA7F83004999DA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 947D972818DA7F83004999DA /* Foundation.framework */; };
+		947D972B18DA7F83004999DA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 947D972A18DA7F83004999DA /* CoreGraphics.framework */; };
+		947D972D18DA7F83004999DA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 947D972C18DA7F83004999DA /* UIKit.framework */; };
+		947D973318DA7F83004999DA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 947D973118DA7F83004999DA /* InfoPlist.strings */; };
+		947D973518DA7F83004999DA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 947D973418DA7F83004999DA /* main.m */; };
+		947D973918DA7F83004999DA /* RAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 947D973818DA7F83004999DA /* RAppDelegate.m */; };
+		947D973C18DA7F83004999DA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 947D973A18DA7F83004999DA /* Main.storyboard */; };
+		947D974118DA7F83004999DA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 947D974018DA7F83004999DA /* Images.xcassets */; };
+		947D976218DA7F90004999DA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 947D972818DA7F83004999DA /* Foundation.framework */; };
+		947D976718DA7F90004999DA /* RAirViewController.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 947D976618DA7F90004999DA /* RAirViewController.h */; };
+		947D976918DA7F90004999DA /* RAirViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 947D976818DA7F90004999DA /* RAirViewController.m */; };
+		947D978718DA810F004999DA /* libRAirViewController.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 947D976118DA7F90004999DA /* libRAirViewController.a */; };
+		947D978A18DA8126004999DA /* RMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 947D978918DA8126004999DA /* RMenuViewController.m */; };
+		947D978D18DA81BF004999DA /* PHViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 947D978C18DA81BF004999DA /* PHViewController.m */; };
+		94BC00FC18DD6A8B0050F09B /* RSectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 94BC00FB18DD6A8B0050F09B /* RSectionView.m */; };
+		94BC010018DDBC610050F09B /* UIViewAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 94BC00FF18DDBC610050F09B /* UIViewAdditions.m */; };
+		94CC9FE01919F84700C3D89F /* RMenuCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 94CC9FDF1919F84700C3D89F /* RMenuCell.m */; };
+		94CC9FE11919FBE600C3D89F /* RAirMenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = 94BC00F818DD6A730050F09B /* RAirMenuView.m */; };
+		94FF838E1914C16A0012A7EE /* UIView+AnchorPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = 94FF838D1914C16A0012A7EE /* UIView+AnchorPoint.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		947D978518DA8109004999DA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 947D971D18DA7F83004999DA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 947D976018DA7F90004999DA;
+			remoteInfo = RAirViewController;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		947D975F18DA7F90004999DA /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				947D976718DA7F90004999DA /* RAirViewController.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		4BE92D115BB741DBAD813123 /* Pods-RAirViewControllerDemo.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RAirViewControllerDemo.xcconfig"; path = "Pods/Pods-RAirViewControllerDemo.xcconfig"; sourceTree = "<group>"; };
+		5C868F1279F3432AACF0FCAA /* libPods-RAirViewController.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RAirViewController.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		873C74DB0348454B87311875 /* libPods-RAirViewControllerDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RAirViewControllerDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		947D972518DA7F83004999DA /* RAirViewControllerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RAirViewControllerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		947D972818DA7F83004999DA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		947D972A18DA7F83004999DA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		947D972C18DA7F83004999DA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		947D973018DA7F83004999DA /* RAirViewControllerDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RAirViewControllerDemo-Info.plist"; sourceTree = "<group>"; };
+		947D973218DA7F83004999DA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		947D973418DA7F83004999DA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		947D973618DA7F83004999DA /* RAirViewControllerDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RAirViewControllerDemo-Prefix.pch"; sourceTree = "<group>"; };
+		947D973718DA7F83004999DA /* RAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RAppDelegate.h; sourceTree = "<group>"; };
+		947D973818DA7F83004999DA /* RAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RAppDelegate.m; sourceTree = "<group>"; };
+		947D973B18DA7F83004999DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		947D974018DA7F83004999DA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		947D974718DA7F84004999DA /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		947D976118DA7F90004999DA /* libRAirViewController.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRAirViewController.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		947D976518DA7F90004999DA /* RAirViewController-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RAirViewController-Prefix.pch"; sourceTree = "<group>"; };
+		947D976618DA7F90004999DA /* RAirViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RAirViewController.h; sourceTree = "<group>"; };
+		947D976818DA7F90004999DA /* RAirViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RAirViewController.m; sourceTree = "<group>"; };
+		947D978818DA8126004999DA /* RMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RMenuViewController.h; sourceTree = "<group>"; };
+		947D978918DA8126004999DA /* RMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RMenuViewController.m; sourceTree = "<group>"; };
+		947D978B18DA81BF004999DA /* PHViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PHViewController.h; sourceTree = "<group>"; };
+		947D978C18DA81BF004999DA /* PHViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PHViewController.m; sourceTree = "<group>"; };
+		94BC00F718DD6A730050F09B /* RAirMenuView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RAirMenuView.h; sourceTree = "<group>"; };
+		94BC00F818DD6A730050F09B /* RAirMenuView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RAirMenuView.m; sourceTree = "<group>"; };
+		94BC00FA18DD6A8B0050F09B /* RSectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSectionView.h; sourceTree = "<group>"; };
+		94BC00FB18DD6A8B0050F09B /* RSectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSectionView.m; sourceTree = "<group>"; };
+		94BC00FE18DDBC610050F09B /* UIViewAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIViewAdditions.h; sourceTree = "<group>"; };
+		94BC00FF18DDBC610050F09B /* UIViewAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIViewAdditions.m; sourceTree = "<group>"; };
+		94CC9FDE1919F84700C3D89F /* RMenuCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RMenuCell.h; sourceTree = "<group>"; };
+		94CC9FDF1919F84700C3D89F /* RMenuCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RMenuCell.m; sourceTree = "<group>"; };
+		94FF838C1914C16A0012A7EE /* UIView+AnchorPoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+AnchorPoint.h"; sourceTree = "<group>"; };
+		94FF838D1914C16A0012A7EE /* UIView+AnchorPoint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+AnchorPoint.m"; sourceTree = "<group>"; };
+		DA26A9D7E97D47D5BF3EF341 /* Pods-RAirViewController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RAirViewController.xcconfig"; path = "Pods/Pods-RAirViewController.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		947D972218DA7F83004999DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				947D978718DA810F004999DA /* libRAirViewController.a in Frameworks */,
+				947D972B18DA7F83004999DA /* CoreGraphics.framework in Frameworks */,
+				947D972D18DA7F83004999DA /* UIKit.framework in Frameworks */,
+				947D972918DA7F83004999DA /* Foundation.framework in Frameworks */,
+				4C41A35DFAEC402AB7F13426 /* libPods-RAirViewControllerDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		947D975E18DA7F90004999DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				947D976218DA7F90004999DA /* Foundation.framework in Frameworks */,
+				727DA3B8D93C4C568142D40A /* libPods-RAirViewController.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		947D971C18DA7F83004999DA = {
+			isa = PBXGroup;
+			children = (
+				947D972E18DA7F83004999DA /* RAirViewControllerDemo */,
+				947D976318DA7F90004999DA /* RAirViewController */,
+				947D972718DA7F83004999DA /* Frameworks */,
+				947D972618DA7F83004999DA /* Products */,
+				DA26A9D7E97D47D5BF3EF341 /* Pods-RAirViewController.xcconfig */,
+				4BE92D115BB741DBAD813123 /* Pods-RAirViewControllerDemo.xcconfig */,
+			);
+			sourceTree = "<group>";
+		};
+		947D972618DA7F83004999DA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				947D972518DA7F83004999DA /* RAirViewControllerDemo.app */,
+				947D976118DA7F90004999DA /* libRAirViewController.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		947D972718DA7F83004999DA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				947D972818DA7F83004999DA /* Foundation.framework */,
+				947D972A18DA7F83004999DA /* CoreGraphics.framework */,
+				947D972C18DA7F83004999DA /* UIKit.framework */,
+				947D974718DA7F84004999DA /* XCTest.framework */,
+				5C868F1279F3432AACF0FCAA /* libPods-RAirViewController.a */,
+				873C74DB0348454B87311875 /* libPods-RAirViewControllerDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		947D972E18DA7F83004999DA /* RAirViewControllerDemo */ = {
+			isa = PBXGroup;
+			children = (
+				947D973718DA7F83004999DA /* RAppDelegate.h */,
+				947D973818DA7F83004999DA /* RAppDelegate.m */,
+				947D973A18DA7F83004999DA /* Main.storyboard */,
+				947D978818DA8126004999DA /* RMenuViewController.h */,
+				947D978918DA8126004999DA /* RMenuViewController.m */,
+				947D978B18DA81BF004999DA /* PHViewController.h */,
+				947D978C18DA81BF004999DA /* PHViewController.m */,
+				947D974018DA7F83004999DA /* Images.xcassets */,
+				947D972F18DA7F83004999DA /* Supporting Files */,
+			);
+			path = RAirViewControllerDemo;
+			sourceTree = "<group>";
+		};
+		947D972F18DA7F83004999DA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				947D973018DA7F83004999DA /* RAirViewControllerDemo-Info.plist */,
+				947D973118DA7F83004999DA /* InfoPlist.strings */,
+				947D973418DA7F83004999DA /* main.m */,
+				947D973618DA7F83004999DA /* RAirViewControllerDemo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		947D976318DA7F90004999DA /* RAirViewController */ = {
+			isa = PBXGroup;
+			children = (
+				94BC00FD18DDBC610050F09B /* KNAdditions */,
+				947D976618DA7F90004999DA /* RAirViewController.h */,
+				947D976818DA7F90004999DA /* RAirViewController.m */,
+				94BC00F718DD6A730050F09B /* RAirMenuView.h */,
+				94BC00F818DD6A730050F09B /* RAirMenuView.m */,
+				94BC00FA18DD6A8B0050F09B /* RSectionView.h */,
+				94BC00FB18DD6A8B0050F09B /* RSectionView.m */,
+				94CC9FDE1919F84700C3D89F /* RMenuCell.h */,
+				94CC9FDF1919F84700C3D89F /* RMenuCell.m */,
+				947D976418DA7F90004999DA /* Supporting Files */,
+			);
+			path = RAirViewController;
+			sourceTree = "<group>";
+		};
+		947D976418DA7F90004999DA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				947D976518DA7F90004999DA /* RAirViewController-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		94BC00FD18DDBC610050F09B /* KNAdditions */ = {
+			isa = PBXGroup;
+			children = (
+				94BC00FE18DDBC610050F09B /* UIViewAdditions.h */,
+				94BC00FF18DDBC610050F09B /* UIViewAdditions.m */,
+				94FF838C1914C16A0012A7EE /* UIView+AnchorPoint.h */,
+				94FF838D1914C16A0012A7EE /* UIView+AnchorPoint.m */,
+			);
+			path = KNAdditions;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		947D972418DA7F83004999DA /* RAirViewControllerDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 947D975718DA7F84004999DA /* Build configuration list for PBXNativeTarget "RAirViewControllerDemo" */;
+			buildPhases = (
+				0A6B6DF5EFA74E33B26959B9 /* Check Pods Manifest.lock */,
+				947D972118DA7F83004999DA /* Sources */,
+				947D972218DA7F83004999DA /* Frameworks */,
+				947D972318DA7F83004999DA /* Resources */,
+				DBAFD3597C4F4151AB3558F3 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				947D978618DA8109004999DA /* PBXTargetDependency */,
+			);
+			name = RAirViewControllerDemo;
+			productName = RAirViewControllerDemo;
+			productReference = 947D972518DA7F83004999DA /* RAirViewControllerDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		947D976018DA7F90004999DA /* RAirViewController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 947D977D18DA7F90004999DA /* Build configuration list for PBXNativeTarget "RAirViewController" */;
+			buildPhases = (
+				B07389D045B444C68E2C4D72 /* Check Pods Manifest.lock */,
+				947D975D18DA7F90004999DA /* Sources */,
+				947D975E18DA7F90004999DA /* Frameworks */,
+				947D975F18DA7F90004999DA /* CopyFiles */,
+				392FAB2B71F741F4AE53C97B /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RAirViewController;
+			productName = RAirViewController;
+			productReference = 947D976118DA7F90004999DA /* libRAirViewController.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		947D971D18DA7F83004999DA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = R;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Ryan Wang";
+			};
+			buildConfigurationList = 947D972018DA7F83004999DA /* Build configuration list for PBXProject "RAirViewControllerDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 947D971C18DA7F83004999DA;
+			productRefGroup = 947D972618DA7F83004999DA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				947D972418DA7F83004999DA /* RAirViewControllerDemo */,
+				947D976018DA7F90004999DA /* RAirViewController */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		947D972318DA7F83004999DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				947D974118DA7F83004999DA /* Images.xcassets in Resources */,
+				947D973318DA7F83004999DA /* InfoPlist.strings in Resources */,
+				947D973C18DA7F83004999DA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0A6B6DF5EFA74E33B26959B9 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		392FAB2B71F741F4AE53C97B /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-RAirViewController-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B07389D045B444C68E2C4D72 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		DBAFD3597C4F4151AB3558F3 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-RAirViewControllerDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		947D972118DA7F83004999DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94CC9FE11919FBE600C3D89F /* RAirMenuView.m in Sources */,
+				947D978D18DA81BF004999DA /* PHViewController.m in Sources */,
+				947D973518DA7F83004999DA /* main.m in Sources */,
+				947D978A18DA8126004999DA /* RMenuViewController.m in Sources */,
+				947D973918DA7F83004999DA /* RAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		947D975D18DA7F90004999DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94BC00FC18DD6A8B0050F09B /* RSectionView.m in Sources */,
+				94CC9FE01919F84700C3D89F /* RMenuCell.m in Sources */,
+				94BC010018DDBC610050F09B /* UIViewAdditions.m in Sources */,
+				947D976918DA7F90004999DA /* RAirViewController.m in Sources */,
+				94FF838E1914C16A0012A7EE /* UIView+AnchorPoint.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		947D978618DA8109004999DA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 947D976018DA7F90004999DA /* RAirViewController */;
+			targetProxy = 947D978518DA8109004999DA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		947D973118DA7F83004999DA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				947D973218DA7F83004999DA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		947D973A18DA7F83004999DA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				947D973B18DA7F83004999DA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		947D975518DA7F84004999DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Steven Shen (45UY6PWCJ9)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Steven Shen (45UY6PWCJ9)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "E75763F0-17C5-4859-828E-6D3256EB8A40";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		947D975618DA7F84004999DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Steven Shen (45UY6PWCJ9)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Steven Shen (45UY6PWCJ9)";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PROVISIONING_PROFILE = "E75763F0-17C5-4859-828E-6D3256EB8A40";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		947D975818DA7F84004999DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4BE92D115BB741DBAD813123 /* Pods-RAirViewControllerDemo.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RAirViewControllerDemo/RAirViewControllerDemo-Prefix.pch";
+				INFOPLIST_FILE = "RAirViewControllerDemo/RAirViewControllerDemo-Info.plist";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "AF3FB7C5-3710-4940-9459-8966A6E5BCAD";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		947D975918DA7F84004999DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4BE92D115BB741DBAD813123 /* Pods-RAirViewControllerDemo.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RAirViewControllerDemo/RAirViewControllerDemo-Prefix.pch";
+				INFOPLIST_FILE = "RAirViewControllerDemo/RAirViewControllerDemo-Info.plist";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "AF3FB7C5-3710-4940-9459-8966A6E5BCAD";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		947D977E18DA7F90004999DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DA26A9D7E97D47D5BF3EF341 /* Pods-RAirViewController.xcconfig */;
+			buildSettings = {
+				DSTROOT = /tmp/RAirViewController.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RAirViewController/RAirViewController-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		947D977F18DA7F90004999DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DA26A9D7E97D47D5BF3EF341 /* Pods-RAirViewController.xcconfig */;
+			buildSettings = {
+				DSTROOT = /tmp/RAirViewController.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RAirViewController/RAirViewController-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		947D972018DA7F83004999DA /* Build configuration list for PBXProject "RAirViewControllerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				947D975518DA7F84004999DA /* Debug */,
+				947D975618DA7F84004999DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		947D975718DA7F84004999DA /* Build configuration list for PBXNativeTarget "RAirViewControllerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				947D975818DA7F84004999DA /* Debug */,
+				947D975918DA7F84004999DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		947D977D18DA7F90004999DA /* Build configuration list for PBXNativeTarget "RAirViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				947D977E18DA7F90004999DA /* Debug */,
+				947D977F18DA7F90004999DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 947D971D18DA7F83004999DA /* Project object */;
+}
